@@ -2,5 +2,9 @@
   "name": "Icewall Randomizer",
   "description": "A Chrome extension that generates one-liners to end conversations.",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
 }
